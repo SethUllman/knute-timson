@@ -1,22 +1,10 @@
-import {useHistory} from 'react-router';
-
 const Navigation = () => {
-
-  const history = useHistory();
 
   return (
     <div>
-      <div>
-        <div onClick={() => {
-          history.push('/home')
-        }}>Home</div>
-        <div onClick={() => {
-          history.push('/products')
-        }}>Products</div>
-        <div onClick={() => {
-          history.push('/contact')
-        }}>Contact</div>
-      </div>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
     </div>
   )
 

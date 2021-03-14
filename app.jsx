@@ -9,11 +9,9 @@ import Navigation from './navigation.jsx';
 const app = () => (
   <div> 
     <Navigation/>
-    <Switch>
-      <Route path="/home" component={Home}></Route>
-      <Route path="/products" component={Products}></Route>
-      <Route path="/contact" component={Contact}></Route>
-    </Switch>
+    <Home/>
+    <Products/>
+    <Contact/>
   </div>
 );
 
