@@ -5,11 +5,8 @@ const Home = () => {
 
   return (
     <div id="home">
-      <img src={rune} alt="" width="10%"></img>
-      <h3>Chop wood, Carry water, and may the X-factor be with you.</h3>
-      <p>. . . . . . . . . .</p>
       <h1>Mage In Montana</h1>
-      <h3>An in-depth guide to the Wizardry of Knute Timson</h3>
+      <h2>An in-depth guide to the Wizardry of Knute Timson</h2>
       <img src={mage} alt="" width="80%"></img>
       <p>Welcome! If you are finding yourself reading this newsletter, know you 
         are in a unique position. The only eyes setting on this space are those 
@@ -36,7 +33,7 @@ const Home = () => {
         <li>Finding the lost coin behind your ear</li>
       </ul>
       <p>And more to come, open to suggestions!!</p>
-      <p>. . . . . . . . . .</p>
+      <h2>. . . . . . . . . .</h2>
     </div>
   )
 
