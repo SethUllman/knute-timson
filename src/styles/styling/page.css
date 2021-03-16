@@ -56,13 +56,19 @@ html {
 .page > div > h1 {
   font-family: 'Amatic SC';
   font-size: 80px;
-  margin: 75px 0 0 0;
+  margin: 80px 0 0 0;
 }
 
 .page > div > h2 {
+  font-family: 'Amatic SC';
+  font-size: 50px;
+  /* margin: 50px 0 0 0; */
 }
 
 .page > div > h3 {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+  /* margin: 25px 0 0 0; */
 }
 
 .page > div > p {
